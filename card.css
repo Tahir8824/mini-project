@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    
+}
+ul li{
+    transition: 0.5s ease-in-out;
+}
+ul li :hover {
+    transition: 0.5s ease-in-out;
+    border-bottom: 1px solid  black;
+}
+
+.btn1{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 30%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-left: 30%;
+}
+.btn1:hover{
+    background-color: white;
+    border: 1px solid;
+    color: black;
+
+}
+.h-tag{
+
+    font-weight: normal;
+    font-size: 35px;
+  margin-left: 32.5%;
+  margin-top: 30px;
+}
+.p-tag a{
+    color: black;
+    font-weight: lighter;
+    font-size: 25px;
+  margin-left: 36%;
+}
+.h-3-tag{
+    
+    font-weight: normal;
+    font-size: 28px;
+  margin-left: 35%;
+  margin-top: 30px;
+}
+.h-3-tag a{
+    text-decoration: none;
+    color: black;
+}
